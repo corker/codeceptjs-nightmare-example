@@ -1,0 +1,18 @@
+{
+  "tests": "./tests/*_test.js",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+    "Nightmare": {
+      "url": "https://github.com/",
+      "show": false,
+      "restart": false
+    }
+  },
+  "include": {
+    "I": "./steps_file.js"
+  },
+  "bootstrap": false,
+  "mocha": {},
+  "name": "codecept-nightmare-example"
+}
