@@ -6,8 +6,8 @@
   "author": "Michael Borisov",
   "license": "MIT",
   "scripts": {
-    "test": "codeceptjs run . --steps",
-    "test-teamcity": "codeceptjs run -c codecept.teamcity.json . --steps"
+    "test": "codeceptjs run --steps",
+    "test-teamcity": "codeceptjs run -c codecept.teamcity.json --steps"
   },
   "devDependencies": {
     "codeceptjs": "^1.0.0",
