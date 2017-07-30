@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "test": "codeceptjs run . --steps",
-    "test-teamcity": "codeceptjs run -c codeceptjs.teamcity.json --reporter xunit"
+    "test-teamcity": "codeceptjs run -c codecept.teamcity.json --reporter xunit"
   },
   "devDependencies": {
     "codeceptjs": "^1.0.0",
