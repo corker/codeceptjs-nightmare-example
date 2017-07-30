@@ -7,5 +7,5 @@ Scenario('test something', (I) => {
   I.click('input.header-search-input');
   I.fillField('input.header-search-input', 'codecept-nightmare-example');
   I.pressKey('Enter');
-  I.wait(5);
+  // I.wait(5);
 });

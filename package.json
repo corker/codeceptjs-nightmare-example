@@ -7,10 +7,11 @@
   "license": "MIT",
   "scripts": {
     "test": "codeceptjs run --steps",
-    "test-teamcity": "codeceptjs run -c codecept.teamcity.json --steps"
+    "test-teamcity": "codeceptjs run -c codecept.teamcity.json --reporter mocha-teamcity-reporter"
   },
   "devDependencies": {
     "codeceptjs": "^1.0.0",
+    "mocha-teamcity-reporter": "^1.1.1",
     "nightmare": "^2.10.0",
     "nightmare-upload": "^0.1.1"
   }
